@@ -1,0 +1,66 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Keranjang - Telur Asin Sekawan Enem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🥚 Telur Asin Sekawan Enem</div>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="produk.html">Produk</a>
+        <a href="keranjang.html">🛒 Keranjang</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</header>
+
+<section class="section">
+
+    <h2 class="section-title">🛒 Keranjang Belanja</h2>
+
+    <div class="cart">
+
+        <h3>Pesanan Kamu</h3>
+
+        <div id="cartItems">
+            <div class="empty-cart">
+                Keranjang masih kosong.
+                <br>
+                Silakan pilih produk terlebih dahulu.
+            </div>
+        </div>
+
+        <div class="cart-total">
+            <span>Total</span>
+            <span id="total">Rp0</span>
+        </div>
+
+        <button
+            class="btn checkout-btn"
+            onclick="checkout()">
+            💬 Pesan Sekarang via WhatsApp
+        </button>
+
+    </div>
+
+</section>
+
+<div id="toast" class="toast"></div>
+
+<footer>
+    <p>🥚 <strong>Telur Asin Sekawan Enem</strong></p>
+    <p class="tagline">Gurih Telurnya, Harum Bawangnya!</p>
+    <p>© 2026 Telur Asin Sekawan Enem</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
